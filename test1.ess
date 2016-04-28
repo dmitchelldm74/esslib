@@ -1,0 +1,25 @@
+$num=0px
+$width=100%
+$favcol=purple
+/* comment */
+?comment2
+#&comment3
+#!comment4
+
+body:
+    background-color=$favcol
+    color=black
+    margin=$num
+
+#id[type@text]:
+    border=$num solid $favcol
+
+#test:
+    color=$favcol
+.id:
+    color=orange
+
+.id&hover:
+        color=red
+.y:
+    color=yellow
